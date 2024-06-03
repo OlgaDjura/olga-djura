@@ -1,0 +1,23 @@
+{
+  "name": "my_first_labrary_olgadjura",
+  "version": "1.0.0",
+  "description": "labrary for generating passwords",
+  "main": "password.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node password.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaDjura/olga-djura.git"
+  },
+  "author": "Olga Djura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaDjura/olga-djura/issues"
+  },
+  "homepage": "https://github.com/OlgaDjura/olga-djura#readme",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
