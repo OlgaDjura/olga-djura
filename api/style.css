@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#reviewForm {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    display: block;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
