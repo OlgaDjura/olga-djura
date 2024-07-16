@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Vue App</title>
+</head>
+<body>
+<div id="app">
+  <button @click="reverseText">{{ buttonText }}</button>
+  <ul>
+    <li v-for="(item, index) in items" :key="index" @click="removeItem(index)">
+      {{ item }}
+    </li>
+  </ul>
+  <button @click="addItem">Добавить</button>
+</div>
+
+<!-- Подключите Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
+<!-- Подключите внешний файл с логикой Vue -->
+<script src="app.js"></script>
+</body>
+</html>
