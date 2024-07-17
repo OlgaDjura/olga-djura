@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список товаров</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Список товаров</h1>
+        <button @click="sort('ascending')">Сортировать по возрастанию цены</button>
+        <button @click="sort('descending')">Сортировать по убыванию цены</button>
+        <ul>
+            <li v-for="product in products">{{ product.name }} - {{ product.price }} руб.</li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
+    <script src="app.js"></script>
+</body>
+</html>
