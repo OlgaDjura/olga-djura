@@ -1,0 +1,369 @@
+/*обнуление стилей*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Correction: use border-box instead of 0 */
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 1200px;
+    margin: auto;
+}
+
+.logoMenu {
+
+    max-width: 177px;
+    padding: 0;
+    /*max-height: 50px;*/
+
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50px;
+    margin-top: 50px;
+}
+
+.banner-conteiner {
+    margin-top: 50px;
+    max-height: 750px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+.menu a {
+    color: rgb(41, 47, 54);
+font-family: Jost;
+font-size: 20px;
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.content-banner {
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    width: 600px;
+    height: 246px;
+
+
+}
+
+.content-banner h1 {
+    font-size: 65px;
+    color: rgb(41, 47, 54);
+    font-family: "DM Serif Display", serif;
+
+}
+
+.content-banner p {
+    font-size: 22px;
+    font-weight: 400px;
+    font-family: "Jost", sans-serif;
+    color: rgb(77, 80, 83);
+}
+
+.btn-banner {
+    width: 180px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(41, 47, 54);
+    font-family: "Jost", sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.project {
+    margin-top: 50px;
+}
+
+.project-text {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.project-text h1 {
+    font-size: 50px;
+    font-family: "DM Serif Display", serif;
+    color: rgb(41, 47, 54);
+}
+
+.project-text p {
+    font-size: 22px;
+    font-family: "Jost", sans-serif;
+    color: rgb(77, 80, 83);
+}
+
+.project-imge image {
+    width: 525px;
+    height: 548px;
+}
+
+.project-imge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-imge button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    color: rgb(30, 28, 28);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.text-button {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Jost", sans-serif;
+    color: rgb(41, 47, 54);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.counter {
+    height: 200px;
+    background-color: rgb(244, 240, 236);
+    font-family: "Jost", sans-serif;
+}
+
+.allnumber image {
+    width: 77px;
+    height: 106px;
+}
+
+.allnumber {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.allnumber p {
+    color: rgb(77, 80, 83);
+font-family: Jost;
+font-size: 22px;
+font-weight: 400;
+margin-top: 20px;
+}
+
+
+.blog-title {
+    text-align: center;
+}
+
+.blog-title h1 {
+    font-family: DM Serif Display;
+    color: rgb(41, 47, 54);
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 96px;
+}
+
+.blog-title p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.blog-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+
+}
+
+.blog-imge1,
+.blog-imge2,
+.blog-imge3 {
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 62px;
+    width: 380px;
+    height: 500px;
+}
+
+.blog-imge2 {
+    background-color: rgb(244, 240, 236);
+    ;
+}
+
+.blog-imge1 img {
+    width: 340px;
+    height: 300px;
+    margin: 20px;
+}
+
+.blog-imge2 img {
+    width: 340px;
+    height: 300px;
+    margin: 20px;
+}
+
+.blog-imge3 img {
+    width: 340px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+.tag {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 53%;
+    left: 40px;
+}
+
+.tag2 {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 55%;
+    left: 40px;
+}
+
+.tag3 {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 55%;
+    left: 40px;
+}
+
+.tag p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tag2 p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tag3 p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blog-text1,
+.blog-text2,
+.blog-text3 {
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.data,
+.data2,
+.data3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-blog1,
+.btn-blog2,
+.btn-blog3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    color: rgb(30, 28, 28);
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(244, 240, 236);
+}
+
+.btn-blog2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.in {
+    padding-left: 60px;
+    
+}
+.footer ol {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.interno {
+    width: 180px;
+    height: 50px;
+}
+.footer-infor1 li, .footer-infor2 li {
+    padding: 10px 0;
+    color: rgb(77, 80, 83);
+font-family: Jost;
+font-size: 22px;
+font-weight: 400;
+}
+.footer-infor1 h4, .footer-infor2 h4 {
+    margin-bottom: 10px;
+    color: rgb(41, 47, 54);
+font-family: DM Serif Display;
+font-size: 25px;
+font-weight: 400;
+}
+.footer-infor1 a {
+    color: rgb(77, 80, 83);
+}
