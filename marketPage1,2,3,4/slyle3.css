@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Correction: use border-box instead of 0 */
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.logoMenu {
+
+    max-width: 177px;
+    padding: 0;
+    /*max-height: 50px;*/
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu a {
+    color: rgb(41, 47, 54);
+    font-family: Jost;
+    font-size: 20px;
+}
+
+.page3-banner {
+    width: 1920px;
+    height: 356px;
+    margin-left: -180px;
+}
+
+.all-content-page3 {
+    margin-top: 100px;
+}
+
+.blog-page3 {
+    width: 800px;
+}
+
+.blog1-page3 h1 {
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+
+.imge-blog1-page3 {
+    width: 799px;
+    height: 539px;
+    margin-top: 30px;
+}
+
+.data-blog1-page3 p {
+    display: block;
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+}
+
+.data-blog1-page3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-blog1-page3 {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+}
+
+.blog2-page3 {
+    margin-top: 50px;
+    width: 799px;
+    height: 267px;
+    border-radius: 50px;
+    background: rgb(244, 240, 236);
+    position: relative;
+}
+
+.blog2-page3 h1 {
+    display: block;
+    position: absolute;
+    color: rgb(205, 162, 116);
+    font-family: DM Serif Display;
+    font-style: italic;
+    font-size: 200px;
+    top: -40%;
+    right: 40%;
+
+}
+
+.blog3-page3 {
+    margin-top: 50px;
+}
+
+.blog2-page3 h2 {
+    display: block;
+    position: absolute;
+    color: rgb(205, 162, 116);
+    font-family: DM Serif Display;
+    font-style: italic;
+    font-size: 25px;
+    top: 50%;
+    right: 30%;
+}
+
+.blog3-page3 h1 {
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 50px;
+}
+
+.blog3-page3 p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+}
+
+.blog3-page3 ol {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style: none;
+    counter-reset: list-counter;
+}
+
+.list-page3 li {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    counter-increment: list-counter;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.list-page3 li::before {
+    color: rgb(205, 162, 116);
+    font-size: 20px;
+    content: counter(list-counter) "";
+    position: absolute;
+    left: -5px;
+}
+
+.imge-blog3-page3 {
+    height: 400px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.tag-btn-page3 h3 {
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.tag-btn-page3 {
+    width: 345px;
+height: 200px;
+}
+
+.tag-btn-page3 button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: Jost;
+    font-size: 18px;
+}
+
+.btn1-page3 {
+    width: 106px;
+    height: 41px;
+    color: rgb(255, 255, 255);
+
+    background-color:
+        rgb(41, 47, 54);
+}
+
+.btn2-page3 {
+    width: 131px;
+    height: 41px;
+    background-color: rgb(244, 240, 236);
+    color: rgb(41, 47, 54);
+}
+
+.btn3-page3 {
+    background-color: rgb(244, 240, 236);
+    width: 123px;
+    height: 41px;
+    color: rgb(41, 47, 54);
+
+}
+
+.btn4-page3 {
+    background-color: rgb(244, 240, 236);
+    width: 158px;
+    height: 41px;
+    color: rgb(41, 47, 54);
+}
+
+.btn5-page3 {
+    background-color: rgb(244, 240, 236);
+    width: 160px;
+    height: 41px;
+    color: rgb(41, 47, 54);
+}
+
+.btn6-page3 {
+    background-color: rgb(244, 240, 236);
+    width: 131px;
+    height: 41px;
+    color: rgb(41, 47, 54);
+}
+
+.all-content-page3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.in {
+    padding-left: 60px;
+
+}
+
+.footer ol {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.interno {
+    width: 180px;
+    height: 50px;
+}
+
+.footer-infor1 li,
+.footer-infor2 li {
+    padding: 10px 0;
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer-infor1 h4,
+.footer-infor2 h4 {
+    margin-bottom: 10px;
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-infor1 a {
+    color: rgb(77, 80, 83);
+}

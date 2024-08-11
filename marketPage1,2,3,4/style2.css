@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Correction: use border-box instead of 0 */
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.logoMenu {
+
+    max-width: 177px;
+    padding: 0;
+    /*max-height: 50px;*/
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu a {
+    color: rgb(41, 47, 54);
+    font-family: Jost;
+    font-size: 20px;
+}
+
+.banner-page2 {
+    width: 1920px;
+    height: 356px;
+    margin-left: -380px;
+}
+
+.big-banner {
+    position: relative;
+}
+
+.text-big-banner {
+    position: absolute;
+    width: 503px;
+    height: 274px;
+    border-radius: 37px 37px 0px 0px;
+    background: rgb(255, 255, 255);
+    padding: 41px 78px 41px 78px;
+    top: 50%;
+    right: 30%;
+}
+
+.text-big-banner h1 {
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.text-big-banner p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 90px;
+}
+
+.Last-Post {
+    margin-top: 210px;
+}
+.Last-Post h1 {
+    color: rgb(41, 47, 54);
+font-family: DM Serif Display;
+font-size: 50px;
+font-weight: 400;
+}
+.content-lastPost {
+    box-sizing: border-box;
+border: 1px solid rgb(231, 231, 231);
+border-radius: 62px;
+box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+margin-top: 20px;
+height: 600px;
+display: flex;
+}
+.img-lastPost {
+    width: 569px;
+height: 478px;
+margin-top: 65px;
+margin-bottom: 65px;
+margin-left: 20px;
+}
+.text-lastPost {
+    padding: 20px 20px 0 40px;
+    width: 470px;
+}
+.text-lastPost h2 {
+    color: rgb(41, 47, 54);
+font-family: DM Serif Display;
+font-size: 25px;
+font-weight: 400;
+}
+.paragraph-lastpost {
+    color: rgb(77, 80, 83);
+font-family: Jost;
+font-size: 22px;
+font-weight: 400;
+}
+.data-LastPost {
+    color: rgb(77, 80, 83);
+font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+}
+.btn-data-LastPost {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn-lastPost {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: rgb(30, 28, 28);
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: -100px;
+    margin-top: -20px;
+    background-color: rgb(244, 240, 236);
+}
+
+.News {
+    height: 1165px;
+    margin-top: 100px;
+
+}
+
+.news-title {
+    color: rgb(41, 47, 54);
+font-family: DM Serif Display;
+font-size: 40px;
+margin-bottom: 20px;
+}
+.News-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.news-imge1, .news-imge2, .news-imge3, .news-imge4, .news-imge5, .news-imge6 {
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 62px;
+    width: 380px;
+    height: 500px;
+}
+.news-imge1, .news-imge2, .news-imge3 {
+    margin-bottom: 30px; 
+}
+.imge-news {
+    width: 340px;
+    height: 300px;
+    margin: 20px;
+}
+
+.tag-news {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 53%;
+    left: 40px;
+}
+
+.tag2-news {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 53%;
+    left: 40px;
+}
+
+.tag3-news {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 53%;
+    left: 40px;
+}
+.tag4-news {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 53%;
+    left: 40px;
+}
+.tag5-news {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 53%;
+    left: 40px;
+}
+.tag6-news {
+    position: absolute;
+    border-radius: 8px 8px 8px 0px;
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 124px;
+    height: 41px;
+    top: 53%;
+    left: 40px;
+}
+
+.tag-news p, .tag4-news p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tag2-news p, .tag3-news p, .tag5-news p, .tag6-news p {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-text1,
+.news-text2,
+.news-text3, .news-text4, .news-text5, .news-text6 {
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.data-news,
+.data2-news,
+.data3-news, .data4-news, .data5-news, .data6-news {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-news1,
+.btn-news2,
+.btn-news3, .btn-news4, .btn-news5, .btn-news6 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    color: rgb(30, 28, 28);
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(244, 240, 236);
+}
+.news-imge2 {
+    background-color: 
+    rgb(244, 240, 236);
+}
+.btn-news2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    
+}
+.pagination button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+font-family: Jost;
+font-size: 16px;
+border-color: rgb(232, 213, 194);
+background-color: rgb(255, 255, 255);
+}
+.btn-pagination {
+    background-color: rgb(244, 240, 236);
+}
+
+.footer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.in {
+    padding-left: 60px;
+
+}
+
+.footer ol {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.interno {
+    width: 180px;
+    height: 50px;
+}
+
+.footer-infor1 li,
+.footer-infor2 li {
+    padding: 10px 0;
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer-infor1 h4,
+.footer-infor2 h4 {
+    margin-bottom: 10px;
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-infor1 a {
+    color: rgb(77, 80, 83);
+}
